@@ -7,20 +7,22 @@ description: "Coffee Method: developer, tinkerer, and maintainer of a few small 
 
 # Hi, I'm Coffee Method
 
-<p class="lede">I build small tools, break them, and write down what I learned.</p>
+<p class="lede">I enjoy the process of building usefull tools.</p>
 
-Replace this paragraph with your own. Worth covering: what you work on, what
-you're learning right now, and the kind of problem you like chewing on. Two or
-three short paragraphs is plenty. Nobody reads a wall of text on an about page.
+Currently im working on Kokoro GUI a Text Based Audio Editor, 
+that is built to quickly produce audio books, podcasts and dubbing. 
+I love the development process but I use AI to code as its way faster
+even though it doesn't do it the way I want it to work first try.
+I enjoy working with how the program should fundementaly work not how
+the code is written to get there.
 
-I mostly work in *(your languages here)*, and I like tools that stay out of the
+I mostly work in Python, and I like tools that stay out of the
 way. Most of what I publish is on [GitHub](https://github.com/CoffeeMethod),
 and I write about some of it on the [blog]({{ '/blog/' | relative_url }}).
 
 ## Elsewhere
 
 - [GitHub](https://github.com/CoffeeMethod)
-- Add other links here, or delete this section.
 
 ## Get in touch
 
