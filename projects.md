@@ -4,7 +4,7 @@ title: Projects
 description: "Things Coffee Method has built: open source tools, experiments, and side projects."
 ---
 
-Stuff I've built. Add a new one by editing `_data/projects.yml`. No HTML required.
+Stuff I've built.
 
 <ul class="cards">
 {%- for p in site.data.projects %}
