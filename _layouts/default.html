@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#171009">
+{%- seo -%}
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+{%- feed_meta -%}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <nav aria-label="Main">
+    {%- assign here = page.url -%}
+    {%- for item in site.nav -%}
+    <a href="{{ item.url | relative_url }}"{% if here == item.url or here contains '/blog/' and item.url == '/blog/' %} aria-current="page"{% endif %}>{{ item.name }}</a>
+    {%- endfor -%}
+  </nav>
+</header>
+
+<main id="main">
+{{ content }}
+</main>
+
+<footer class="bar foot">
+  <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</p>
+  <p class="links">
+    {%- if site.social_links.github %}<a href="https://github.com/{{ site.social_links.github }}" rel="me">GitHub</a>{% endif -%}
+    {%- if site.social_links.mastodon %}<a href="{{ site.social_links.mastodon }}" rel="me">Mastodon</a>{% endif -%}
+    {%- if site.social_links.email %}<a href="mailto:{{ site.social_links.email }}">Email</a>{% endif -%}
+    <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+  </p>
+</footer>
+</body>
+</html>

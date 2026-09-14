@@ -1,0 +1,10 @@
+# Add a project by copying a block. Only `name` is required.
+- name: Example Project
+  description: One or two sentences on what it does and why you made it.
+  url: https://github.com/CoffeeMethod
+  tags: [python, cli]
+
+- name: Another Thing
+  description: A half-finished experiment that taught me more than the finished ones.
+  url: https://github.com/CoffeeMethod
+  tags: [javascript]

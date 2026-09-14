@@ -1,0 +1,20 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+description: "Writing by Coffee Method on software, tools, and side projects."
+---
+
+<p class="lede">{{ site.posts.size }} post{% if site.posts.size != 1 %}s{% endif %}. There's an <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a> if you'd rather not check back.</p>
+
+<ul class="posts">
+{%- for post in site.posts %}
+  <li>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <p>{{ post.description | default: post.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
+  </li>
+{%- else %}
+  <li><p>No posts yet. Drop a markdown file in <code>_posts/</code> to change that.</p></li>
+{%- endfor %}
+</ul>

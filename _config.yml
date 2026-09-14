@@ -1,0 +1,53 @@
+title: Coffee Method
+tagline: Notes, code, and side projects.
+description: >-
+  Personal site of Coffee Method. Projects, writing about software,
+  and whatever else is brewing.
+url: "https://coffeemethod.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: Coffee Method
+  url: "https://github.com/CoffeeMethod"
+
+github_username: CoffeeMethod
+# Fill these in (or delete the lines) and they show up in the footer.
+social_links:
+  github: CoffeeMethod
+  # mastodon: "https://mastodon.social/@you"
+  # email: you@example.com
+
+# Pretty URLs: /blog/2026/09/14/post-title/
+permalink: /blog/:year/:month/:day/:title/
+
+nav:
+  - name: About
+    url: /
+  - name: Projects
+    url: /projects/
+  - name: Blog
+    url: /blog/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: /feed.xml
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page }
+
+excerpt_separator: "<!--more-->"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github
