@@ -25,12 +25,8 @@ I want to push the frontier of text based editing as an alternative to the tradi
 scrub and cut. I want it to be able to import audio and for that to also act as an 
 editing surface, that you can edit the transcript and it edits the linked audio.
 I would like to even add support for inline Sound FX's for audio books or podcasts, 
-like "intro-music", or "explosion". 
+like `intro-music`, or `explosion`. 
 
 <!--more-->
 
-Every project I start gets a `NOTES.md` in the root, gitignored. Dead ends go
-in it, so I don't walk down the same one twice. Commands I had to look up go in
-it too. Six months later, that file is more useful than the commit history.
 
-Nothing clever about it. It just has to be somewhere I'll actually look.
