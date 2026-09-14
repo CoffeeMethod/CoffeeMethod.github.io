@@ -1,10 +1,10 @@
 # Add a project by copying a block. Only `name` is required.
-- name: Example Project
-  description: One or two sentences on what it does and why you made it.
-  url: https://github.com/CoffeeMethod
-  tags: [python, cli]
+- name: Kokoro GUI
+  description: A text based audio editor, built around TTS.
+  url: https://github.com/CoffeeMethod/KokoroGUI
+  tags: [python, gui]
 
-- name: Another Thing
-  description: A half-finished experiment that taught me more than the finished ones.
-  url: https://github.com/CoffeeMethod
-  tags: [javascript]
+- name: MELD-GUI
+  description: A one shot web-ui for the MELD AI detection model.
+  url: https://github.com/CoffeeMethod/MELD-GUI
+  tags: [python, web-ui, gui]
