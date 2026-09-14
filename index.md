@@ -11,9 +11,9 @@ description: "Coffee Method: developer, tinkerer, and maintainer of a few small 
 
 Currently im working on Kokoro GUI a Text Based Audio Editor, 
 that is built to quickly produce audio books, podcasts and dubbing. 
-I love the development process but I use AI to code as its way faster
+I love the development process but I use AI to code as its way faster,
 even though it doesn't do it the way I want it to work first try.
-I enjoy working with how the program should fundementaly work not how
+I enjoy working with how the program should fundementaly work, not how
 the code is written to get there.
 
 I mostly work in Python, and I like tools that stay out of the
